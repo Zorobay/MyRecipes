@@ -7,3 +7,5 @@ recipes:
     children:
       - title: "Churchil's Breakfast"
         url: /recipes/cocktails/churchills_breakfast
+      - title: "Homemade Tonic Water"
+        url: /recipes/cocktails/tonic_water
