@@ -17,6 +17,7 @@ instructions:
     - Grate a hint of fresh cinnamon into the empty glass
     - Double strain the cocktail into the glass and enjoy
 image: churchills_breakfast.png
+yield: 1 cocktail
 category: cocktails
 source: https://www.cocktailchemistrylab.com/home/churchills-breakfast
 ---

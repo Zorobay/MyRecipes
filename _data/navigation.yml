@@ -9,3 +9,5 @@ recipes:
         url: /recipes/cocktails/churchills_breakfast
       - title: "Homemade Tonic Water"
         url: /recipes/cocktails/tonic_water
+      - title: "Mezcal Sour"
+        url: /recipes/cocktails/mezcal_sour

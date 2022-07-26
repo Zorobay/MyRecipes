@@ -28,6 +28,7 @@ instructions:
     - Whisk simple syrup into tonic until thoroughly combined.
     - Pour tonic syrup through a funnel into storage bottles and store in the refrigerator.
 image: tonic_water.jpg
+yield: 1 cocktail
 category: cocktails
 source: https://pinchandswirl.com/homemade-tonic-water-for-the-ultimate-gin-and-tonic/
 ---
