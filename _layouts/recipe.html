@@ -2,5 +2,32 @@
 layout: single
 ---
 
-<h5 class="description">{{page.description}}</h5>
-{{ content }}
+
+<p class="description">{{page.description}}</p>
+
+
+{% if page.image %}
+    <img src="{{site.baseurl}}/assets/img/{{page.image}}" class="recipe-image"/>
+{%endif%}
+
+
+<h2>Ingredients</h2>
+<ul>
+    {% for ing in page.ingredients %}
+    <li>{{ing}}</li>
+    {% endfor %}
+</ul>
+
+<h2>Instructions</h2>
+
+{% for instr in page.instructions %}
+{% if instr.title != "" and instr.title != nil %}
+<h3>{{instr.title}}</h3>
+{% endif %}
+
+<ol>
+    {% for step in instr.steps %}
+    <li>{{step}}</li>
+    {% endfor %}
+</ol>
+{% endfor %}
