@@ -1,0 +1,9 @@
+main:
+  - title : "Recipes"
+    url: "/recipes"
+
+recipes:
+  - title: "Cocktails"
+    children:
+      - title: "Churchil's Breakfast"
+        url: /recipes/cocktails/churchils_breakfast

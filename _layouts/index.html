@@ -1,0 +1,12 @@
+---
+layout: single
+sidebar:
+  nav: "recipes"
+---
+
+<h2>Recipe collection</h2>
+<ul>
+{% for recipe in site.recipes %}
+    <li>{{recipe.title}}</li>
+{% endfor %}
+</ul>
