@@ -55,13 +55,16 @@ layout: default
             site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+      <!-- Footer with date and source, etc. -->
       <footer class="page__meta">
+        {% include page_note.html %}
         {% if site.data.ui-text[site.locale].meta_label %}
         <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
         {% include page_source.html %}
+
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}

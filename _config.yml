@@ -34,9 +34,15 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
 
+kramdown:
+  hard_wrap: true
+
 collections:
   recipes:
     output: true
+
+sass:
+  sass_dir: assets/css
 
 defaults:
   - scope:

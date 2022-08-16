@@ -1,11 +1,15 @@
 recipes:
-- children:
+- title: Cocktails
+  children:
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
   - title: Mezcal Sour
     url: /recipes/cocktails/mezcal_sour
   - title: Homemade Tonic Water
     url: /recipes/cocktails/tonic_water
-  title: Cocktails
-- children: []
-  title: Sauces
+- title: Sauces
+  children:
+  - title: Kycklingspett med jordnötssås
+    url: /recipes/sauces/kycklingspett_med_jordnoetssaas
+  - title: Portvinssås
+    url: /recipes/sauces/portvinssaas

@@ -44,7 +44,12 @@ def get_recipe_navigations(root_path: str) -> dict:
 
 
 if __name__ == '__main__':
-    navs = get_recipe_navigations("_recipes")
+    navs = get_recipe_navigations("../_recipes")
+    path = "../_data/navigation.yml"
 
-    with open("_data/navigation.yml", "w", encoding="utf-8") as f:
-        yaml.dump(navs, f)
+    with open(path, "w", encoding="utf-8") as f:
+        data = yaml.dump(navs, encoding="utf-8", allow_unicode=True, sort_keys=False).decode("utf-8")
+        f.write(data)
+
+        print("Wrote the following data to {}:\n".format(path))
+        print(data)

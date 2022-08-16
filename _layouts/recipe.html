@@ -7,7 +7,7 @@ layout: single
 
 
 {% if page.image %}
-    <img src="{{site.baseurl}}/assets/img/{{page.image}}" class="recipe-image"/>
+    <img src="{{site.baseurl}}/assets/img/{{page.category}}/{{page.image}}" class="recipe-image"/>
 {%endif%}
 
 
@@ -15,7 +15,7 @@ layout: single
 
 {% for ingr in page.ingredients %}
     {% if ingr.title %}
-        <h3 class="recipe-steptitle">{{ingr.title}}</h3>        
+        <h3 class="recipe-steptitle">{{ingr.title}}</h3>
     {%endif%}
 
     <ul>
