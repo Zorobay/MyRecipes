@@ -41,9 +41,6 @@ collections:
   recipes:
     output: true
 
-sass:
-  sass_dir: assets/css
-
 defaults:
   - scope:
       path: "assets/img"

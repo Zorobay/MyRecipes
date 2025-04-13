@@ -2,40 +2,90 @@
 layout: single
 ---
 
+<div id="outside-modal">
+    <div id="image-modal" class="image-modal">
+        <span id="image-modal-close-button" class="image-modal-close-button">&times;</span>
+        <img id="image-modal-content" class="image-modal-content" />
+    </div>
+</div>
+
 
 <p class="description">{{page.description}}</p>
 
+<div class="recipe-quick-info-container">
+    {% if page.total_time%}
+        <p class="recipe-quick-info"><i class="fa fa-clock recipe-qick-info-icon"></i>{{page.total_time}}</p>
+    {%endif%}
+    {% if page.yield%}
+    <p class="recipe-quick-info" style="display: flex; align-items: baseline;"><img class="recipe-qick-info-icon"
+            width="22" height="24" src="{{site.baseurl}}/assets/icons/knife-fork-svgrepo-com.svg"></img>{{page.yield}}
+    </p>
+    {%endif%}
+</div>
+
 
 {% if page.image %}
-    <img src="{{site.baseurl}}/assets/img/{{page.category}}/{{page.image}}" class="recipe-image"/>
+<img src="{{site.baseurl}}/assets/img/{{page.category}}/{{page.image}}" class="recipe-image" />
 {%endif%}
 
 
 <h2>Ingredients</h2>
 
 {% for ingr in page.ingredients %}
-    {% if ingr.title %}
-        <h3 class="recipe-steptitle">{{ingr.title}}</h3>
-    {%endif%}
+{% if ingr.title %}
+<h3 class="recipe-steptitle">{{ingr.title}}</h3>
+{%endif%}
 
-    <ul>
-        {% for i in ingr.steps %}
-            <li>{{i}}</li>
-        {% endfor %}
-    </ul>
+<ul>
+    {% for i in ingr.steps %}
+    <li>{{i}}</li>
+    {% endfor %}
+</ul>
 {% endfor %}
 
 
 <h2>Instructions</h2>
 
 {% for instr in page.instructions %}
-    {% if instr.title %}
-        <h3 class="recipe-steptitle">{{instr.title}}</h3>
-    {% endif %}
+{% if instr.title %}
+<h3 class="recipe-steptitle">{{instr.title}}</h3>
+{% endif %}
 
-    <ol>
-        {% for step in instr.steps %}
-        <li>{{step}}</li>
-        {% endfor %}
-    </ol>
+<div class="recipe-instruction-images-container">
+    {% for img in instr.images %}
+    <img src="{{site.baseurl}}/assets/img/{{page.category}}/{{img}}" class="recipe-instruction-image" />
+    {% endfor %}
+</div>
+
+<ol>
+    {% for step in instr.steps %}
+    <li>{{step}}</li>
+    {% endfor %}
+</ol>
 {% endfor %}
+
+<script>
+    const outsideModal = document.getElementById('outside-modal');
+    const modal = document.getElementById('image-modal');
+    const modalImage = document.getElementById('image-modal-content');
+    const modalSubtitle = document.getElementById('image-modal-subtitle');
+    const modalClose = document.getElementById('image-modal-close-button');
+    const instructionImages = document.getElementsByClassName('recipe-instruction-image');
+
+    outsideModal.addEventListener('click', () => modal.style.display = 'none');
+
+    for (const img of instructionImages) {
+        img.addEventListener('click', (e) => {
+            modal.style.display = 'block';
+            modalImage.src = e.target.src;
+        });
+    }
+
+    modalClose.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    // Add event listener
+
+
+</script>

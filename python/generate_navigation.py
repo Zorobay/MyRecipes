@@ -44,8 +44,9 @@ def get_recipe_navigations(root_path: str) -> dict:
 
 
 if __name__ == '__main__':
-    navs = get_recipe_navigations("../_recipes")
-    path = "../_data/navigation.yml"
+    cwd = os.getcwd()
+    navs = get_recipe_navigations("{}/_recipes".format(cwd))
+    path = "{}/_data/navigation.yml".format(cwd)
 
     with open(path, "w", encoding="utf-8") as f:
         data = yaml.dump(navs, encoding="utf-8", allow_unicode=True, sort_keys=False).decode("utf-8")

@@ -20,3 +20,77 @@
 .alert-info i {
   font-size: 1.4rem;
 }
+
+.recipe-qick-info-icon {
+  margin-right: 0.3em;
+}
+
+.recipe-quick-info-container {
+  display: flex; 
+}
+
+.recipe-quick-info {
+  padding-right: 1em;
+}
+
+.recipe-instruction-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-instruction-image {
+  width: 8em;
+  filter: drop-shadow(3px 3px 5px);
+  margin: 0.5em;
+}
+
+.recipe-instruction-image:hover {
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.image-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.image-modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.image-modal-close-button {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.image-modal-close-button:hover,
+.image-modal-close-button:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .image-modal-content {
+    width: 100%;
+  }
+}

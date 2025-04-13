@@ -1,10 +1,32 @@
 recipes:
+- title: Asian
+  children:
+  - title: Chinese Cucumber Salad
+    url: /recipes/asian/chinese_cucumber_salad
+  - title: Sichuan Wontons
+    url: /recipes/asian/sichuan_wontons
+- title: Bakery
+  children:
+  - title: Københavnsbirkes
+    url: /recipes/bakery/thebirkes
 - title: Cocktails
   children:
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
+  - title: Day-quiri
+    url: /recipes/cocktails/day-quiri
+  - title: Division Bell
+    url: /recipes/cocktails/division_bell
+  - title: Homemade Falernum
+    url: /recipes/cocktails/falernum
+  - title: Hawaiian Sunset
+    url: /recipes/cocktails/hawaiian_sunset
+  - title: Iron Ranger (aka Daddy's Downtime)
+    url: /recipes/cocktails/iron_ranger
   - title: Mezcal Sour
     url: /recipes/cocktails/mezcal_sour
+  - title: Sidewinder's Fang
+    url: /recipes/cocktails/sidewinders_fang
   - title: Homemade Tonic Water
     url: /recipes/cocktails/tonic_water
 - title: Sauces
