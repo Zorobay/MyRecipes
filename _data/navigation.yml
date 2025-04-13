@@ -7,6 +7,8 @@ recipes:
     url: /recipes/asian/sichuan_wontons
 - title: Bakery
   children:
+  - title: Chocolate Chip Cookies
+    url: /recipes/bakery/chocolate_chip_cookies
   - title: Københavnsbirkes
     url: /recipes/bakery/thebirkes
 - title: Cocktails
@@ -25,6 +27,8 @@ recipes:
     url: /recipes/cocktails/iron_ranger
   - title: Mezcal Sour
     url: /recipes/cocktails/mezcal_sour
+  - title: Miracle Pill
+    url: /recipes/cocktails/miracle_pill
   - title: Sidewinder's Fang
     url: /recipes/cocktails/sidewinders_fang
   - title: Homemade Tonic Water
@@ -35,3 +39,7 @@ recipes:
     url: /recipes/sauces/kycklingspett_med_jordnoetssaas
   - title: Portvinssås
     url: /recipes/sauces/portvinssaas
+- title: Soups
+  children:
+  - title: Hot Roasted Corn Soup
+    url: /recipes/soups/hot_roasted_corn_shoup
