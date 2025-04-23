@@ -3,43 +3,73 @@ recipes:
   children:
   - title: Chinese Cucumber Salad
     url: /recipes/asian/chinese_cucumber_salad
+    image: asian/chinese_cucumber_salad.jpg
+  - title: Hangover noodles
+    url: /recipes/asian/hangover_noodles
+    image: asian/hangover_noodles.png
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
+    image: asian/sichuan_wontons.webp
 - title: Bakery
   children:
   - title: Chocolate Chip Cookies
     url: /recipes/bakery/chocolate_chip_cookies
+    image: bakery/chocolate_chip_cookies.jpg
   - title: Københavnsbirkes
     url: /recipes/bakery/thebirkes
+    image: bakery/thebirkes/thebirkes.jpg
 - title: Cocktails
   children:
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
+    image: cocktails/churchills_breakfast.png
   - title: Day-quiri
     url: /recipes/cocktails/day-quiri
+    image: ''
   - title: Division Bell
     url: /recipes/cocktails/division_bell
+    image: cocktails/division-bell.webp
   - title: Homemade Falernum
     url: /recipes/cocktails/falernum
+    image: cocktails/falernum.webp
   - title: Hawaiian Sunset
     url: /recipes/cocktails/hawaiian_sunset
+    image: cocktails/hawaiian_sunset.jpg
   - title: Iron Ranger (aka Daddy's Downtime)
     url: /recipes/cocktails/iron_ranger
+    image: cocktails/iron_ranger.webp
   - title: Mezcal Sour
     url: /recipes/cocktails/mezcal_sour
+    image: cocktails/mezcal_sour.webp
   - title: Miracle Pill
     url: /recipes/cocktails/miracle_pill
+    image: cocktails/miracle_pill.jpg
   - title: Sidewinder's Fang
     url: /recipes/cocktails/sidewinders_fang
+    image: cocktails/sidewinders_fang.webp
   - title: Homemade Tonic Water
     url: /recipes/cocktails/tonic_water
+    image: cocktails/tonic_water.jpg
+- title: Meat
+  children:
+  - title: Pulled Pork
+    url: /recipes/meat/pulled_pork
+    image: meat/pulled_pork.jpg
+- title: Pasta
+  children:
+  - title: Macaroni n’ Cheese
+    url: /recipes/pasta/macaroni_n_cheese
+    image: ''
 - title: Sauces
   children:
   - title: Kycklingspett med jordnötssås
     url: /recipes/sauces/kycklingspett_med_jordnoetssaas
+    image: sauces/kycklingspett_med_jordnoetssaas.jpg
   - title: Portvinssås
     url: /recipes/sauces/portvinssaas
+    image: sauces/portvinssaas.jpg
 - title: Soups
   children:
   - title: Hot Roasted Corn Soup
     url: /recipes/soups/hot_roasted_corn_shoup
+    image: ''

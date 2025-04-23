@@ -26,7 +26,7 @@
 }
 
 .recipe-quick-info-container {
-  display: flex; 
+  display: flex;
 }
 
 .recipe-quick-info {
@@ -39,13 +39,46 @@
   justify-content: space-evenly;
 }
 
+/* ==== RECIPE INDEX ==== */
+.recipe-index-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-index-image-card {
+    height: 10em;
+    width: 10em;
+    overflow: hidden;
+    background: antiquewhite;
+    margin-bottom: 1em;
+}
+
+.recipe-index-image-container {
+    height: 8em;
+    overflow: hidden;
+}
+
+.recipe-index-image {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(3px 3px 5px);
+}
+
+.recipe-index-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
 .recipe-instruction-image {
   width: 8em;
   filter: drop-shadow(3px 3px 5px);
   margin: 0.5em;
 }
 
-.recipe-instruction-image:hover {
+.recipe-instruction-image:hover, .recipe-index-image:hover {
   border: 2px solid rgb(0, 0, 0);
   cursor: pointer;
 }

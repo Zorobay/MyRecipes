@@ -1,10 +1,19 @@
+import typing
+from collections.abc import Callable
+
 import requests
 import yaml
-from recipe_scrapers import AbstractScraper, scrape_html
+from recipe_scrapers import scrape_html
+
+
+def get_or_default(func: Callable[[], typing.Any], default: typing.Any) -> typing.Any:
+    try:
+        return func()
+    except BaseException:
+        return default
 
 
 class RecipeModel:
-
     _REPLACEMENTS = {
         'å': 'aa',
         'ä': 'ae',
@@ -27,13 +36,13 @@ class RecipeModel:
         html = requests.get(self.url).content
         scraper = scrape_html(html=html, org_url=self.url)
 
-        self.title = scraper.title()
-        self.description = scraper.description()
-        self.ingredients = scraper.ingredients()
-        self.instructions = scraper.instructions().split("\n")
-        self.image = scraper.image()
-        self.yild = scraper.yields()
-        self.total_time = scraper.total_time()
+        self.title = get_or_default(lambda: scraper.title(), '')
+        self.description = get_or_default(lambda: scraper.description(), '')
+        self.ingredients = get_or_default(lambda: scraper.ingredients(), [])
+        self.instructions = get_or_default(lambda: scraper.instructions_list(), [])
+        self.image = get_or_default(lambda: scraper.image(), '')
+        self.yild = get_or_default(lambda: scraper.yields(), '')
+        self.total_time = get_or_default(lambda: scraper.total_time(), '')
 
     def get_filename(self) -> str:
         filename = self.title.lower()
@@ -69,4 +78,3 @@ class RecipeModel:
             "title": None,
             "steps": lst
         }]
-

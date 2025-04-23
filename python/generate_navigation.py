@@ -15,9 +15,15 @@ def get_params_from_front_matter(filepath: str) -> dict:
 def get_filename_without_extension(filename: str) -> str:
     return filename.rsplit(".", maxsplit=1)[0]
 
+def get_image_path(category: str, image_name: str) -> str:
+    if image_name:
+        return f'{category}/{image_name}'
+    return ''
+
 
 def get_recipe_navigations(root_path: str) -> dict:
     categories = []
+    recipe_index = []
 
     for rootDir, subDirs, files in os.walk(root_path, topdown=True):
         for subDir in subDirs:
@@ -35,7 +41,8 @@ def get_recipe_navigations(root_path: str) -> dict:
 
                     cat["children"].append({
                         "title": fm_params["title"],
-                        "url": "/recipes/{}/{}".format(subDir, filename)
+                        "url": "/recipes/{}/{}".format(subDir, filename),
+                        "image": get_image_path(subDir, fm_params.get('image'))
                     })
 
             categories.append(cat)

@@ -2,9 +2,8 @@ import os
 
 import click
 import requests
-from recipe_scrapers import scrape_me, scrape_html
 
-from python.RecipeModel import RecipeModel
+from RecipeModel import RecipeModel
 
 
 @click.command()
@@ -44,7 +43,7 @@ def run(url: str):
             print("Wrote image data to {}".format(img_full_path))
 
     except Exception as e:
-        print(e)
+        raise e
 
 
 if __name__ == '__main__':

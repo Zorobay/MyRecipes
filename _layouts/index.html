@@ -3,3 +3,24 @@ layout: single
 ---
 
 {{content}}
+
+<h1>Recipe index</h1>
+
+{% for cat in site.data.navigation.recipes %}
+<h3>{{cat.title}}</h3>
+<div class="recipe-index-images-container">
+
+    {% for recipe in cat.children %}
+    <div class="recipe-index-image-card">
+        <div class="recipe-index-image-container">
+            <a href="{{site.baseurl}}/{{recipe.url}}">
+                <img src="{{site.baseurl}}/assets/img/{{recipe.image}}" class="recipe-index-image"/>
+            </a>
+        </div>
+        <p class="recipe-index-title">{{recipe.title}}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{%endfor%}
+
