@@ -28,7 +28,7 @@ instructions:
   - Let them sit on the baking pan for 5 minutes before removing to cooling rack.
 image: chocolate_chip_cookies.jpg
 yield: 36 cookies
-category: bakery
+category: sweet bakery
 total_time: 30 min
 source: https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/#wprm-recipe-container-8678
 ---

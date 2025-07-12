@@ -10,14 +10,6 @@ recipes:
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
-- title: Bakery
-  children:
-  - title: Chocolate Chip Cookies
-    url: /recipes/bakery/chocolate_chip_cookies
-    image: bakery/chocolate_chip_cookies.jpg
-  - title: Københavnsbirkes
-    url: /recipes/bakery/thebirkes
-    image: bakery/thebirkes/thebirkes.jpg
 - title: Cocktails
   children:
   - title: Churchill's Breakfast
@@ -55,6 +47,11 @@ recipes:
   - title: Pulled Pork
     url: /recipes/meat/pulled_pork
     image: meat/pulled_pork.jpg
+- title: Other
+  children:
+  - title: Onion Rings
+    url: /recipes/other/onion_rings
+    image: other/onion-rings3-1024x683.webp
 - title: Pasta
   children:
   - title: Macaroni n’ Cheese
@@ -68,8 +65,27 @@ recipes:
   - title: Portvinssås
     url: /recipes/sauces/portvinssaas
     image: sauces/portvinssaas.jpg
+  - title: Ranch dip
+    url: /recipes/sauces/ranch
+    image: ''
+- title: Savoury bakery
+  children:
+  - title: Upplandskubb
+    url: /recipes/savoury bakery/upplandskubb
+    image: savoury bakery/upplandskubb.webp
 - title: Soups
   children:
   - title: Hot Roasted Corn Soup
     url: /recipes/soups/hot_roasted_corn_shoup
     image: ''
+- title: Sweet bakery
+  children:
+  - title: Chocolate Chip Cookies
+    url: /recipes/sweet bakery/chocolate_chip_cookies
+    image: sweet bakery/chocolate_chip_cookies.jpg
+  - title: Monkey Bread
+    url: /recipes/sweet bakery/monkey_bread
+    image: sweet bakery/monkey_bread/monkey_bread.jpg
+  - title: Københavnsbirkes
+    url: /recipes/sweet bakery/thebirkes
+    image: sweet bakery/thebirkes/thebirkes.jpg
