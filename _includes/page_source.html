@@ -1,3 +1,7 @@
-{% if page.source %}
-<p><strong><i class="fas fa-fw fa-globe" aria-hidden="true"></i> Source: </strong><a href="{{page.source}}">{{page.source}}</a></p>
-{% endif%}
+{% if page.source contains "/>" %}
+  This product's title contains the word Pack.
+{ % else %}
+<p><strong><i class="fas fa-fw fa-globe" aria-hidden="true"></i> Source: 
+</strong><a href="{{page.source}}">{{page.source}}</a></p>
+{% endif %}
+

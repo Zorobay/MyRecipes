@@ -42,6 +42,9 @@ recipes:
   - title: Homemade Tonic Water
     url: /recipes/cocktails/tonic_water
     image: cocktails/tonic_water.jpg
+  - title: Zombie
+    url: /recipes/cocktails/zombie
+    image: cocktails/zombie.jpg
 - title: Meat
   children:
   - title: Pulled Pork
