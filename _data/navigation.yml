@@ -47,6 +47,9 @@ recipes:
     image: cocktails/zombie.jpg
 - title: Meat
   children:
+  - title: Truly Crispy Oven Baked Buffalo Wings
+    url: /recipes/meat/buffalo_hot_wings
+    image: meat/buffalo_hot_wings.webp
   - title: Pulled Pork
     url: /recipes/meat/pulled_pork
     image: meat/pulled_pork.jpg
