@@ -97,6 +97,9 @@ recipes:
   - title: Chocolate Chip Cookies
     url: /recipes/sweet bakery/chocolate_chip_cookies
     image: sweet bakery/chocolate_chip_cookies.jpg
+  - title: Mom's Ginger Bread
+    url: /recipes/sweet bakery/moms_ginger_bread
+    image: ''
   - title: Monkey Bread
     url: /recipes/sweet bakery/monkey_bread
     image: sweet bakery/monkey_bread/monkey_bread.jpg
