@@ -36,8 +36,7 @@ instructions:
   - Line the tray with foil. Put a rack on the tray then spray the rack with oil.
   - Toss wings – Place the wings in a large bowl. Sprinkle over baking powder and salt. Use hands to toss well (or shake in ziplock bag) to coat wings evenly.
   - Bake 30 minutes on low temp – Place the wings skin side up on the rack (ok if snug, they shrink). Bake on the lower shelf in the oven for 30 minutes.
-  - Bake 40 minutes on high – Move the tray up to the higher shelf and turn the oven up to 425°F / 220°C (all oven types). Bake for a further 40 to 50 minutes, rotating the tray halfway through. The wings do not need to be turned over. They are ready 
-  - hen dark golden brown and the skin is very crispy.
+  - Bake 40 minutes on high – Move the tray up to the higher shelf and turn the oven up to 425°F / 220°C (all oven types). Bake for a further 40 to 50 minutes, rotating the tray halfway through. The wings do not need to be turned over. They are ready when dark golden brown and the skin is very crispy.
   - Toss in sauce – Transfer the wings into a large bowl. Pour over sauce and toss to coat. (Alternatively, serve wings plain with Buffalo Sauce for dipping).
   - Serve immediately with Blue Cheese Dip (for both wings and celery sticks dunking)!
 - title: Buffalo Sauce

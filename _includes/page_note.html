@@ -1,6 +1,8 @@
 {% if page.note %}
-<div class="alert alert-info d-flex align-items-center" role="alert">
-  <i class="bi-info-circle"></i>
-  <p>&nbsp;{{page.note}}</p>
+<div class="alert alert-info" role="alert">
+  <div class="d-flex align-items-center gap-3">
+    <i class="bi-info-circle"></i>
+    <p>{{page.note}}</p>
+  </div>
 </div>
 {% endif %}

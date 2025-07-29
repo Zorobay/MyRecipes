@@ -10,6 +10,11 @@ recipes:
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
+- title: Brunch
+  children:
+  - title: Cinnamon French Toast Sticks
+    url: /recipes/brunch/french_toast_sticks
+    image: brunch/french_toast_sticks.webp
 - title: Cocktails
   children:
   - title: Churchill's Breakfast
@@ -60,6 +65,9 @@ recipes:
     image: other/onion-rings3-1024x683.webp
 - title: Pasta
   children:
+  - title: Asiago Chicken Pasta with Sun-Dried Tomatoes and Spinach
+    url: /recipes/pasta/asiago_chicken_pasta
+    image: pasta/asiago_chicken_paste.jpg
   - title: Macaroni n’ Cheese
     url: /recipes/pasta/macaroni_n_cheese
     image: ''
