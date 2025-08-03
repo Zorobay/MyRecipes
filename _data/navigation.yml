@@ -55,6 +55,9 @@ recipes:
   - title: Truly Crispy Oven Baked Buffalo Wings
     url: /recipes/meat/buffalo_hot_wings
     image: meat/buffalo_hot_wings.webp
+  - title: Kycklingspett med jordnötssås
+    url: /recipes/meat/kycklingspett_med_jordnoetssaas
+    image: meat/kycklingspett_med_jordnoetssaas.jpg
   - title: Pulled Pork
     url: /recipes/meat/pulled_pork
     image: meat/pulled_pork.jpg
@@ -73,9 +76,9 @@ recipes:
     image: ''
 - title: Sauces
   children:
-  - title: Kycklingspett med jordnötssås
-    url: /recipes/sauces/kycklingspett_med_jordnoetssaas
-    image: sauces/kycklingspett_med_jordnoetssaas.jpg
+  - title: Jordnötssås
+    url: /recipes/sauces/peanut_butter_sauce
+    image: ''
   - title: Portvinssås
     url: /recipes/sauces/portvinssaas
     image: sauces/portvinssaas.jpg

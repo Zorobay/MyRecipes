@@ -14,7 +14,7 @@ layout: single
     <div class="recipe-index-image-card">
         <div class="recipe-index-image-container">
             <a href="{{site.baseurl}}/{{recipe.url}}">
-                <img src="{{site.baseurl}}/assets/img/{{recipe.image}}" class="recipe-index-image"/>
+                <img src="{{site.baseurl}}/assets/img/{{recipe.image}}" class="recipe-index-image" onerror="this.src='{{site.baseurl}}/assets/img/missing.jpg'"/>
             </a>
         </div>
         <p class="recipe-index-title">{{recipe.title}}</p>
