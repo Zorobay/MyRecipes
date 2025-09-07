@@ -24,6 +24,6 @@ instructions:
 image: zombie.jpg
 yield: 1 cocktail
 category: cocktails
-source: App <a href="https://play.google.com/store/apps/details?id=com.shakeandstraincocktails&pcampaignid=web_share">Shake & Strain</a>
+source: <a href="https://www.youtube.com/watch?v=eUy-K0p6sLA&ab_channel=StevetheBartender">ZOMBIE - adapted by SMUGGLER'S COVE (Donn the Beachcomber original)</a>
 ---
 

@@ -4,7 +4,7 @@ description: En jordnötssås på asiatiskt vis!
 ingredients:
 - title:
   steps:
-  - 100g jordnötter
+  - 100g jordnötssmör (originalet har vanliga jordnötter, men det ger en otrevlig konsistens)
   - 1 burk kokosmjölk (400g)
   - 1 tsk currypasta
   - 1 msk råsocker

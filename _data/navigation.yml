@@ -10,11 +10,6 @@ recipes:
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
-- title: Brunch
-  children:
-  - title: Cinnamon French Toast Sticks
-    url: /recipes/brunch/french_toast_sticks
-    image: brunch/french_toast_sticks.webp
 - title: Cocktails
   children:
   - title: Churchill's Breakfast
@@ -26,6 +21,9 @@ recipes:
   - title: Division Bell
     url: /recipes/cocktails/division_bell
     image: cocktails/division-bell.webp
+  - title: Dublin Minstrel
+    url: /recipes/cocktails/dublin_minstrel
+    image: cocktails/dublin_minstrel.jpg
   - title: Homemade Falernum
     url: /recipes/cocktails/falernum
     image: cocktails/falernum.webp
@@ -47,6 +45,9 @@ recipes:
   - title: Homemade Tonic Water
     url: /recipes/cocktails/tonic_water
     image: cocktails/tonic_water.jpg
+  - title: Yellow Smash
+    url: /recipes/cocktails/yellow_smash
+    image: cocktails/yellow_smash.jpg
   - title: Zombie
     url: /recipes/cocktails/zombie
     image: cocktails/zombie.jpg
@@ -100,6 +101,9 @@ recipes:
   - title: Chocolate Chip Cookies
     url: /recipes/sweet bakery/chocolate_chip_cookies
     image: sweet bakery/chocolate_chip_cookies.jpg
+  - title: Cinnamon French Toast Sticks
+    url: /recipes/sweet bakery/french_toast_sticks
+    image: sweet bakery/french_toast_sticks.webp
   - title: Mom's Ginger Bread
     url: /recipes/sweet bakery/moms_ginger_bread
     image: ''
