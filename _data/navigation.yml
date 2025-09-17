@@ -12,6 +12,9 @@ recipes:
     image: asian/sichuan_wontons.webp
 - title: Cocktails
   children:
+  - title: Piña Verde
+    url: /recipes/cocktails/pina_verde
+    image: cocktails/pina_verde.webp
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
     image: cocktails/churchills_breakfast.png
