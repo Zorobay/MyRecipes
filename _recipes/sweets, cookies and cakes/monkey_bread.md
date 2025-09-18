@@ -27,6 +27,6 @@ instructions:
   - Heat the oven to 180 C°. Roll out the dough on a lightly floured baking surface until it is about 2.5 cm thick. Cut into pieces the size of golf balls. Mix the pieces in the sugar/cinnamon mixture and place them in the bundt mould. If the sugar doesn't stick to the pieces, pour a little over each layer in the mould. Finally, pour over the butter mixture and bake in the centre of the oven for about 35 minutes.
 image: monkey_bread/monkey_bread.jpg
 yield: 6-8 portions
-category: sweet bakery
+category: sweets, cookies and cakes
 total_time: 2h 30min
 ---

@@ -41,7 +41,7 @@ instructions:
   - Preheat oven to 350 degrees F (180 degrees C). Lightly beat egg and brush onto top of dough. Sprinkle with poppy seeds. Bake for 15-20 minutes or until golden brown. Allow Birkes to cool on baking sheet. Birkes with Remonce filling is eaten as is. Birkes without filling is sliced in half and topped with jam or cheese. Enjoy
 image: thebirkes/thebirkes.jpg
 yield: 20 birkes
-category: sweet bakery
+category: sweets, cookies and cakes
 total_time: "?"
 source: https://mydanishkitchen.com/2012/05/21/birkes-thebirkes-kobenhavnerbirkes-grovbirkes-dear-child-has-many-names/
 ---

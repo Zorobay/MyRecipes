@@ -99,20 +99,23 @@ recipes:
   - title: Hot Roasted Corn Soup
     url: /recipes/soups/hot_roasted_corn_shoup
     image: ''
-- title: Sweet bakery
+- title: Sweets, cookies and cakes
   children:
   - title: Chocolate Chip Cookies
-    url: /recipes/sweet bakery/chocolate_chip_cookies
-    image: sweet bakery/chocolate_chip_cookies.jpg
+    url: /recipes/sweets, cookies and cakes/chocolate_chip_cookies
+    image: sweets, cookies and cakes/chocolate_chip_cookies.jpg
   - title: Cinnamon French Toast Sticks
-    url: /recipes/sweet bakery/french_toast_sticks
-    image: sweet bakery/french_toast_sticks.webp
+    url: /recipes/sweets, cookies and cakes/french_toast_sticks
+    image: sweets, cookies and cakes/french_toast_sticks.webp
+  - title: Getmjölkskola med vanilj
+    url: /recipes/sweets, cookies and cakes/getmjölkskola
+    image: sweets, cookies and cakes/getmjölkskola.jpg
   - title: Mom's Ginger Bread
-    url: /recipes/sweet bakery/moms_ginger_bread
+    url: /recipes/sweets, cookies and cakes/moms_ginger_bread
     image: ''
   - title: Monkey Bread
-    url: /recipes/sweet bakery/monkey_bread
-    image: sweet bakery/monkey_bread/monkey_bread.jpg
+    url: /recipes/sweets, cookies and cakes/monkey_bread
+    image: sweets, cookies and cakes/monkey_bread/monkey_bread.jpg
   - title: Københavnsbirkes
-    url: /recipes/sweet bakery/thebirkes
-    image: sweet bakery/thebirkes/thebirkes.jpg
+    url: /recipes/sweets, cookies and cakes/thebirkes
+    image: sweets, cookies and cakes/thebirkes/thebirkes.jpg

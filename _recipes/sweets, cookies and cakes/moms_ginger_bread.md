@@ -26,6 +26,6 @@ instructions:
   - Grate long, thin strips of the dough with a cheese grater. Each length of the logs should result in three cinnamon "cookies".
   - Bake in the oven for about 5 minutes. Be careful not to overbake.
 yield: ~60 cookies
-category: sweet bakery
+category: sweets, cookies and cakes
 total_time: 2h 30min
 ---
