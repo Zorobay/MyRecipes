@@ -10,11 +10,11 @@ recipes:
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
+  - title: Yamitsuki (Japanese cabbage salad)
+    url: /recipes/asian/yamitsuki
+    image: asian/yamitsuki.webp
 - title: Cocktails
   children:
-  - title: Piña Verde
-    url: /recipes/cocktails/pina_verde
-    image: cocktails/pina_verde.webp
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
     image: cocktails/churchills_breakfast.png
@@ -42,6 +42,9 @@ recipes:
   - title: Miracle Pill
     url: /recipes/cocktails/miracle_pill
     image: cocktails/miracle_pill.jpg
+  - title: Piña Verde
+    url: /recipes/cocktails/pina_verde
+    image: cocktails/pina_verde.webp
   - title: Sidewinder's Fang
     url: /recipes/cocktails/sidewinders_fang
     image: cocktails/sidewinders_fang.webp
