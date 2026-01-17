@@ -7,10 +7,14 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-#gem "jekyll", "~> 4.2.2"
 
 # Install github gem
-gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "webrick", "~> 1.7"
+
+gem 'csv'
+
+gem 'fiddle'
+gem 'faraday-retry'

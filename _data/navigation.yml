@@ -27,6 +27,9 @@ recipes:
   - title: Dublin Minstrel
     url: /recipes/cocktails/dublin_minstrel
     image: cocktails/dublin_minstrel.jpg
+  - title: Easy Speak
+    url: /recipes/cocktails/easy_speak
+    image: cocktails/easy_speak.jpg
   - title: Homemade Falernum
     url: /recipes/cocktails/falernum
     image: cocktails/falernum.webp
@@ -113,6 +116,9 @@ recipes:
   - title: Getmjölkskola med vanilj
     url: /recipes/sweets, cookies and cakes/getmjölkskola
     image: sweets, cookies and cakes/getmjölkskola.jpg
+  - title: Kalljästa Lussekatter
+    url: /recipes/sweets, cookies and cakes/kalljästa_lussekatter
+    image: sweets, cookies and cakes/kalljästa_lussekatter.webp
   - title: Mom's Ginger Bread
     url: /recipes/sweets, cookies and cakes/moms_ginger_bread
     image: ''

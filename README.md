@@ -1,15 +1,12 @@
 # MyRecipes
 
 ## Setup
+You need to have python installed first.
 
-### Webserver
 1. Install Jekyll: https://jekyllrb.com/docs/installation/windows/
-2. 
-
-### Python
-
-1. Install Poetry: https://python-poetry.org/docs/
-2. Run `poetry install` from the project root.
+2. Install Poetry: https://python-poetry.org/docs/
+3. Run `poetry install` from the project root.
+4. Run `bundle install` from the project root.
 
 ## Running
 
