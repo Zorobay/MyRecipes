@@ -15,6 +15,9 @@ recipes:
     image: asian/yamitsuki.webp
 - title: Cocktails
   children:
+  - title: The 1910
+    url: /recipes/cocktails/1910
+    image: cocktails/1910.png
   - title: Churchill's Breakfast
     url: /recipes/cocktails/churchills_breakfast
     image: cocktails/churchills_breakfast.png
@@ -116,6 +119,9 @@ recipes:
   - title: Getmjölkskola med vanilj
     url: /recipes/sweets, cookies and cakes/getmjölkskola
     image: sweets, cookies and cakes/getmjölkskola.jpg
+  - title: Hanna's Brownies
+    url: /recipes/sweets, cookies and cakes/hannas_brownies
+    image: sweets, cookies and cakes/brownies.jpg
   - title: Kalljästa Lussekatter
     url: /recipes/sweets, cookies and cakes/kalljästa_lussekatter
     image: sweets, cookies and cakes/kalljästa_lussekatter.webp
