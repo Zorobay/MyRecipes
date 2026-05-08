@@ -108,6 +108,9 @@ recipes:
   - title: Hot Roasted Corn Soup
     url: /recipes/soups/hot_roasted_corn_shoup
     image: ''
+  - title: Krya-soppa
+    url: /recipes/soups/krya_soppa
+    image: soups/krya_soppa.png
 - title: Sweets, cookies and cakes
   children:
   - title: Chocolate Chip Cookies
@@ -134,3 +137,8 @@ recipes:
   - title: Københavnsbirkes
     url: /recipes/sweets, cookies and cakes/thebirkes
     image: sweets, cookies and cakes/thebirkes/thebirkes.jpg
+- title: Vegetarian
+  children:
+  - title: Bakad vitkål med chili- och sojasmör, limemajonnäs och matvete
+    url: /recipes/vegetarian/baked_cabbage_w_chili_soy_butter
+    image: vegetarian/baked_cabbage_w_chili_soy_butter.jpg
