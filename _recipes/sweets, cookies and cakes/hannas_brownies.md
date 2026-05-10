@@ -1,6 +1,6 @@
 ---
 title: Hanna's Brownies
-description: Amazing brownies with great texture and a nice hint of coffee
+description: Amazing brownies by my sister, with great texture and a nice hint of coffee
 ingredients:
 - title:
   steps:

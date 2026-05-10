@@ -10,6 +10,9 @@ recipes:
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
+  - title: Yakiniku med syrlig vitkålssallad
+    url: /recipes/asian/yakiniku_med_syrlig_vitkålssallad
+    image: asian/yakiniku.webp
   - title: Yamitsuki (Japanese cabbage salad)
     url: /recipes/asian/yamitsuki
     image: asian/yamitsuki.webp
@@ -71,6 +74,9 @@ recipes:
   - title: Kycklingspett med jordnötssås
     url: /recipes/meat/kycklingspett_med_jordnoetssaas
     image: meat/kycklingspett_med_jordnoetssaas.jpg
+  - title: Lamb meatballs with fregola and feta
+    url: /recipes/meat/lamb_meatballs_with_fregola
+    image: meat/lamb_meatballs_with_fregola.webp
   - title: Pulled Pork
     url: /recipes/meat/pulled_pork
     image: meat/pulled_pork.jpg
