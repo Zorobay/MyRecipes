@@ -7,6 +7,9 @@ recipes:
   - title: Hangover noodles
     url: /recipes/asian/hangover_noodles
     image: asian/hangover_noodles.png
+  - title: Mung Bean Sprout Side Dish (Sukjunamul-muchim)
+    url: /recipes/asian/korean_mung_bean_sprout_salad
+    image: asian/korean_mung_bean_sprout_salad.jpg
   - title: Sichuan Wontons
     url: /recipes/asian/sichuan_wontons
     image: asian/sichuan_wontons.webp
