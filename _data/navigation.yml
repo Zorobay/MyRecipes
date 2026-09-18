@@ -42,6 +42,9 @@ recipes:
   - title: Homemade Falernum
     url: /recipes/cocktails/falernum
     image: cocktails/falernum.webp
+  - title: Godfather Sour
+    url: /recipes/cocktails/godfather_sour
+    image: cocktails/godfather_sour.webp
   - title: Hawaiian Sunset
     url: /recipes/cocktails/hawaiian_sunset
     image: cocktails/hawaiian_sunset.jpg
@@ -74,6 +77,9 @@ recipes:
   - title: Truly Crispy Oven Baked Buffalo Wings
     url: /recipes/meat/buffalo_hot_wings
     image: meat/buffalo_hot_wings.webp
+  - title: Chicken On The Rocks
+    url: /recipes/meat/chicken_on_the_rocks
+    image: meat/chicken_on_the_rocks.webp
   - title: Kycklingspett med jordnötssås
     url: /recipes/meat/kycklingspett_med_jordnoetssaas
     image: meat/kycklingspett_med_jordnoetssaas.jpg

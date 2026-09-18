@@ -3,7 +3,7 @@ title: Chinese Cucumber Salad
 description:
   Smashed Cucumber Salad (<em>拍黄瓜, pai huang gua</em>) is a light and refreshing appetizer. The crisp cucumber is mixed with plenty of garlic, drizzled with an appetizing blend&nbsp;of soy sauce, vinegar, and sugar, then finished with a few drops of sesame oil. The sauce is light, yet it has a distinct sour flavor with a hint of sweetness, enhanced by the strong aroma of garlic.
 ingredients:
-- title: Wontons
+- title: 
   steps:
   - 1 English cucumbers (about 11 oz./300 g) , tough skin removed
   - 3 cloves garlic , crushed and minced
@@ -15,7 +15,7 @@ ingredients:
   - 2 teaspoons Homemade chili oil (or store-bought chili oil), or to taste (Optional)
   - 1 tablespoon Lao Gan Ma Chili Crisp , or to taste (Optional)
 instructions:
-- title: To Make Wontons
+- title:
   steps:
   - Dry the cucumber with a paper towel. Place the cucumber on a large cutting board and carefully use a cleaver to crush it. If you don't own a cleaver, a meat pounder will work as well. Then cut it into bite-size pieces and place them into a bowl.
   - Add the garlic on top of the cucumber.
