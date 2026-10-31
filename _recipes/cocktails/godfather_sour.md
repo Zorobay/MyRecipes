@@ -3,8 +3,8 @@ title: Godfather Sour
 description:
   Rich almondy amaretto sweetens and flavours this Whisky Sour.
 ingredients:
-    - title:
-    - steps:
+  - title:
+    steps:
       - 30 ml Blended Scotch whisky
       - 30 ml Amaretto liqueur
       - 30 ml Lemon juice (freshly squeezed)
@@ -24,4 +24,6 @@ image: godfather_sour.webp
 yield: 1 cocktail
 category: cocktails
 source: https://www.diffordsguide.com/cocktails/recipe/4612/godfather-sour
+note: >
+  Some find this too sweet and increase the whisky-to-amaretto ratio a bit. Others report that a smoky whisky works really well.
 ---

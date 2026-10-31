@@ -1,5 +1,5 @@
 ---
-title: Chicken On The Rocks
+title: Chicken on the Rocks
 description:
   Halal cart-style chicken and rice with white sauce. Tried it first in Waterloo, Canada and fell in love with this fast food!
 ingredients:

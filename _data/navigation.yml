@@ -21,6 +21,9 @@ recipes:
     image: asian/yamitsuki.webp
 - title: Cocktails
   children:
+  - title: 100 Year Old Cigar
+    url: /recipes/cocktails/100_year_old_cigar
+    image: cocktails/100_year_old_cigar.webp
   - title: The 1910
     url: /recipes/cocktails/1910
     image: cocktails/1910.png
@@ -77,7 +80,7 @@ recipes:
   - title: Truly Crispy Oven Baked Buffalo Wings
     url: /recipes/meat/buffalo_hot_wings
     image: meat/buffalo_hot_wings.webp
-  - title: Chicken On The Rocks
+  - title: Chicken on the Rocks
     url: /recipes/meat/chicken_on_the_rocks
     image: meat/chicken_on_the_rocks.webp
   - title: Kycklingspett med jordnötssås
@@ -115,11 +118,17 @@ recipes:
     image: ''
 - title: Savoury bakery
   children:
+  - title: Bolani med afghansk yoghurtdipp
+    url: /recipes/savoury bakery/bolani
+    image: savoury bakery/bolani.webp
   - title: Upplandskubb
     url: /recipes/savoury bakery/upplandskubb
     image: savoury bakery/upplandskubb.webp
 - title: Soups
   children:
+  - title: Fänkålssoppa med fetaost- och valnötstopping
+    url: /recipes/soups/fankalssoppa
+    image: soups/fankalssoppa.webp
   - title: Hot Roasted Corn Soup
     url: /recipes/soups/hot_roasted_corn_shoup
     image: ''

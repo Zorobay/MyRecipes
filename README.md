@@ -17,6 +17,8 @@ Run from the root:
 bundle exec jekyll serve --livereload
 ```
 
+Or simply the script `run_webserver.ps1`.
+
 _You might need to run_ `bundle install` _first, but you should get a warning if that is the case._
 
 ## Python scripts
